@@ -37,7 +37,8 @@ IndentCaseBlocks: true
 IndentWidth: 4
 KeepEmptyLinesAtTheStartOfBlocks: false
 NamespaceIndentation: All
+# PackConstructorInitializers: Never - TODO clang 14
 PointerAlignment: Left
-SortIncludes: false
 TabWidth: 4
-UseTab: Always
+# QualifierAlignment: Right - TODO clang 14
+UseTab: Never
